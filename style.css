@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+#message{
+    margin: 10px;
+    height: 70%;
+    overflow-y: scroll;
+    display: block;
+}
+#form{
+    height: 15%;
+    margin: 10px;
+    display: flex;
+    width: 95%;
+    position: absolute;
+    bottom: 5px;
+    gap:5px;
+    /* position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 5px;
+    
+    padding: 20px;
+    width: 100vw;
+    box-shadow: 10px 10px 5px lightblue;
+    height: 20%;
+    display: flex;
+    flex-direction: column; */
+}
+.chat{
+    width: fit-content;
+    margin-top:5px ;
+    background-color: rgb(163, 215, 247);
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;  
+    position: relative;
+
+}
+.outgoing{
+   
+    margin-left: auto;
+    
+}
+.incoming{
+    margin-right: auto;
+}
+.join{
+   
+    margin-top:5px ;
+    /* background-color: rgb(163, 215, 247); */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+   
+}
+.top{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B63AC;
+    color: white;
+    font-size: 30px;
+}
+.top span{
+    color: red;
+}
+.con{
+    /* display: flex;
+    flex-direction: row;
+    margin: 10px;
+    font-size: 20px;
+    width: 80%; */
+    margin: 10px;
+    display: flex;
+    width: 95%;
+    position: absolute;
+    bottom: 5px;
+    gap:5px;
+}
+input{
+    height: 30px;
+    width: 80%;
+    font-size: 20px;
+}
+button{
+    height: 35px;
+    width: 20%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+/* .con input{
+    margin: 10px;
+    height: 30px;
+    width: 70%;
+    
+}
+.con button{
+    margin: 10px;
+    height: 30px;
+    width: 70px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+} */

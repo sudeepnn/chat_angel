@@ -1,0 +1,97 @@
+.background{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+      
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70%;
+    
+    
+
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+form{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+form input{
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+}
+form button{
+    height: 40px;
+    width: 80%;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+img{
+    height: 80%;
+    width: 50%;
+}
+span{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height:50% ;
+    background-color: #1B63AC;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+    
+}
+@media(max-width:1000px){
+    .container{
+        box-shadow: 0 0 50px rgba(0,0,0,0.8);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:100% ;
+        background-color: #1B63AC;
+        align-items: center;
+        justify-content: center;    
+    }
+    img{
+        height: 40%;
+        width: 100%;
+    }
+    .form{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 70%;    
+    }
+    form button{
+        height: 40px;
+        width: 80%;
+        font-size: 20px;
+        color: white;
+        background-color: red;
+        border-radius: 10px;
+    }
+}
