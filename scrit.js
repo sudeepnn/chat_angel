@@ -7,7 +7,7 @@ const username=document.getElementById("name")
 const roominput=document.getElementById("roominput")
 const form=document.getElementById("form")
 
-const socket=io('http://localhost:3000')
+const socket=io('https://chat-vrrg.onrender.com')
 
 const{name,room}=Qs.parse(location.search,{
     ignoreQueryPrefix:true
